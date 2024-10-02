@@ -31,7 +31,7 @@ document.addEventListener('keydown', (e) => {
 function handleInput(value) {
     if (value >= '0' && value <= '9' || value === '.') {
         handleNumber(value);
-    } else if (value === 'C') {
+    } else if (value === 'AC') {
         clear();
     } else if (value === '←') {
         backspace();
